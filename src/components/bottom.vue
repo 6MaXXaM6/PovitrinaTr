@@ -52,7 +52,7 @@ a {
 .container {
     background-color: rgb(182, 234, 255);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 1%;
 }
 </style>

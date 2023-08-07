@@ -71,7 +71,7 @@ export default {
   flex-basis: 30%;
   max-width: 70%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   transition: all 3s 0.5s;
   top: 0;
   right: 0;
@@ -79,14 +79,14 @@ export default {
   background-color: rgb(245, 245, 245);
   box-shadow: 4px 4px 2px #7e7c7c;
   border-radius: 2% 0% 0% 2%;
+  z-index: 2;
 }
 .main {
   display: flex;
-  max-height: 100%;
+  max-height: 90vh;
   width: 100%;
   justify-content:flex-start;
   flex-wrap: wrap;
-  overflow-x: scroll;
 }
 .Header {
   flex-basis: 100%;
