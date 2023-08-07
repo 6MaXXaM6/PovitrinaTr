@@ -6,7 +6,7 @@
             <div class="progressKv" v-for="el in progress" :key="el" :class = "{ fill: el<ColPr}"></div>
         </div>
     </div>
-    <div class ="el">
+    <div class ="el" style="max-width: 50%;">
         <figure>
             <audio :src=src controls autoplay=true loop=true id = "audioEl">
             </audio>
@@ -65,6 +65,7 @@ export default {
     border-radius: 2%;
     display:flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 .progressKv {
     aspect-ratio: 1/1;
